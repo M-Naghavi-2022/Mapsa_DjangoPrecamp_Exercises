@@ -1,0 +1,1 @@
+# Mapsa_DjangoPrecamp_Exercises
