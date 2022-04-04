@@ -2,15 +2,15 @@ r = int(input())
 for i in range(r):
     n = int(input())
     a = list(map(int, input().split()))
-    for j in range(1, min(a)+1):
+    for j in a:
         l = []
         for k in a:
             if k%j == 0:
-                l.append(True)
+                l.append(0)
             else:
-                l.append(False)
+                l.append(1)
             
-        for k in range(len(l)-1):
+        for k in range(n-1):
             if l[k] == l[k+1]:
                 flag = False
                 break

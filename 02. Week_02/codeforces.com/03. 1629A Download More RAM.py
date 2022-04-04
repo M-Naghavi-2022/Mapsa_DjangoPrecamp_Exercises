@@ -13,3 +13,4 @@ for _ in range(t):
             break
     
     print(k)
+    
